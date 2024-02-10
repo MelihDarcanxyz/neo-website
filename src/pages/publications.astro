@@ -1,0 +1,48 @@
+---
+import { Image } from "astro:assets";
+
+import PageLayout from "@/layouts/Base";
+import aboutImg from "@/assets/about-astro.png";
+
+const meta = {
+	title: "About me",
+	description: "I'm a starter theme for Astro.build",
+};
+---
+
+<PageLayout meta={meta}>
+	<div class="space-y-6">
+		<h1 class="title">About</h1>
+		<p>
+			Hi, I'm Melih, a homo sapiens with never-ending curiosity towards anything and everything. I
+			don't mind learning new tools or even programming languages to get my way. May be a little bit
+			obsessed with optimization, security, and privacy. Just let me do my thing.
+		</p>
+		<div class="flex justify-center">
+			<Image src={aboutImg} alt="About me logo" loading="eager" fetchpriority="high" />
+		</div>
+		<p>Here are some of my awesome built in features:</p>
+		<ul class="list-inside list-disc">
+			<li>Unsatisfiable curiosity towards anything and everything</li>
+			<li>Creativity to handle complex problems or just for fun</li>
+			<li>A great sense of humor</li>
+			<li>Easily adaptable to your use case</li>
+		</ul>
+		<p>
+			Clone or fork the <a
+				class="cactus-link inline-block"
+				href="https://github.com/chrismwilliams/astro-cactus"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="github repository">template</a
+			> of this <a
+				class="cactus-link inline-block"
+				href="https://github.com/MelihDarcanxyz/neo-website"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="github repository">website</a
+			>
+			if you like it!
+		</p>
+	</div>
+</PageLayout>
