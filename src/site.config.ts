@@ -5,9 +5,9 @@ export const siteConfig: SiteConfig = {
 	// Used as both a meta property (src/components/BaseHead.astro L:31 + L:49) & the generated satori png (src/pages/og-image/[slug].png.ts)
 	author: "Melih DARCAN",
 	// Meta property used to construct the meta title property, found in src/components/BaseHead.astro L:11
-	title: "Melih DARCAN's Blog",
+	title: "Expedition",
 	// Meta property used as the default description meta property
-	description: "A website to share life style",
+	description: "A blog to help me conquer myself",
 	// HTML lang property, found in src/layouts/Base.astro L:18
 	lang: "en-US",
 	// Meta property, found in src/components/BaseHead.astro L:42
@@ -33,10 +33,6 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		path: "/",
 	},
 	{
-		title: "About",
-		path: "/about/",
-	},
-	{
 		title: "Blog",
 		path: "/posts/",
 	},
@@ -48,12 +44,16 @@ export const menuLinks: Array<{ title: string; path: string }> = [
 		title: "Publications",
 		path: "/publications",
 	},
+	{
+		title: "About",
+		path: "/about/",
+	},
 ];
 
 // https://expressive-code.com/reference/configuration/
 export const expressiveCodeOptions: AstroExpressiveCodeOptions = {
 	// One dark, one light theme => https://expressive-code.com/guides/themes/#available-themes
-	themes: ["dracula", "github-light"],
+	themes: ["github-dark", "github-light"],
 	themeCssSelector(theme, { styleVariants }) {
 		// If one dark and one light theme are available
 		// generate theme CSS selectors compatible with cactus-theme dark mode switch
