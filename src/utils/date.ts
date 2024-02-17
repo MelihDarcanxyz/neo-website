@@ -8,7 +8,7 @@ export function getFormattedDate(
 ) {
 	if (typeof options !== "undefined") {
 		return new Date(date).toLocaleDateString(siteConfig.date.locale, {
-			...(siteConfig.date.options),
+			...siteConfig.date.options,
 			...options,
 		});
 	}
