@@ -5,8 +5,8 @@
 		"lib": ["es2022", "dom", "dom.iterable"],
 		"paths": {
 			"@/assets/*": ["src/assets/*"],
-			"@/components/*": ["src/components/*"],
-			"@/layouts/*": ["src/layouts/*"],
+			"@/components/*": ["src/components/*.astro"],
+			"@/layouts/*": ["src/layouts/*.astro"],
 			"@/utils": ["src/utils/index.ts"],
 			"@/types": ["src/types.ts"],
 			"@/site-config": ["src/site.config.ts"]
