@@ -2,7 +2,7 @@
 import { Image } from "astro:assets";
 
 import PageLayout from "@/layouts/Base";
-import aboutImg from "@/assets/about-astro.png";
+// import aboutImg from "@/assets/about-astro.png";
 
 const meta = {
 	title: "Oops! You found a missing page!",
@@ -13,6 +13,7 @@ const meta = {
 <PageLayout meta={meta}>
 	<h1 class="title mb-6">Code 404, repeating, code 404!</h1>
 	<p class="mb-8">This is too dangerous, this page leads to void. Go back...</p>
+	<!--
 	<div class="my-4 grid justify-center">
 		<Image
 			class="rotate-180"
@@ -21,4 +22,5 @@ const meta = {
 			loading="eager"
 		/>
 	</div>
+	-->
 </PageLayout>
