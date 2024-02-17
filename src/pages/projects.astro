@@ -1,12 +1,11 @@
 ---
-import { Image } from "astro:assets";
-
 import PageLayout from "@/layouts/Base";
+import { Image } from "astro:assets";
 // import aboutImg from "@/assets/about-astro.png";
 
 const meta = {
-	title: "About me",
 	description: "About me",
+	title: "About me",
 };
 ---
 
@@ -32,17 +31,17 @@ const meta = {
 		</ul>
 		<p>
 			Clone or fork the <a
+				aria-label="github repository"
 				class="cactus-link inline-block"
 				href="https://github.com/chrismwilliams/astro-cactus"
-				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="github repository">template</a
+				target="_blank">template</a
 			> of this <a
+				aria-label="github repository"
 				class="cactus-link inline-block"
 				href="https://github.com/MelihDarcanxyz/neo-website"
-				target="_blank"
 				rel="noopener noreferrer"
-				aria-label="github repository">website</a
+				target="_blank">website</a
 			>
 			if you like it!
 		</p>

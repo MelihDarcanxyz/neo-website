@@ -1,22 +1,22 @@
 import type { MarkdownHeading } from "astro";
 
 export interface TocItem extends MarkdownHeading {
-	subheadings: Array<TocItem>;
+	subheadings: TocItem[];
 }
 
-function diveChildren(item: TocItem, depth: number): Array<TocItem> {
+function diveChildren(item: TocItem, depth: number): TocItem[] {
 	if (depth === 1 || !item.subheadings.length) {
 		return item.subheadings;
 	} else {
 		// e.g., 2
-		return diveChildren(item.subheadings[item.subheadings.length - 1] as TocItem, depth - 1);
+		return diveChildren(item.subheadings[item.subheadings.length - 1]!, depth - 1);
 	}
 }
 
-export function generateToc(headings: ReadonlyArray<MarkdownHeading>) {
+export function generateToc(headings: readonly MarkdownHeading[]) {
 	// this ignores/filters out h1 element(s)
 	const bodyHeadings = [...headings.filter(({ depth }) => depth > 1)];
-	const toc: Array<TocItem> = [];
+	const toc: TocItem[] = [];
 
 	bodyHeadings.forEach((h) => {
 		const heading: TocItem = { ...h, subheadings: [] };
