@@ -1,5 +1,5 @@
 <div align="center">
-  <picture width="70">
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.github.com/MelihDarcanxyz/neo-website/main/assets/icon-darkgreen.svg">
     <source media="(prefers-color-scheme: light)" srcset="https://raw.github.com/MelihDarcanxyz/neo-website/main/assets/icon-red.svg">
   </picture>
