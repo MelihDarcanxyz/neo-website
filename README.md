@@ -1,8 +1,8 @@
 <div align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MelihDarcanxyz/neo-website/assets/icon-darkgreen.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/MelihDarcanxyz/neo-website/assets/icon-red.svg">
-    <img alt="An eagle resting on a branch. Light: 'Light variant' Dark: 'Dark variant'" src="https://github.com/MelihDarcanxyz/neo-website/assets/icon-teal.svg" width=70>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MelihDarcanxyz/neo-website/blob/main/assets/icon-darkgreen.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/MelihDarcanxyz/neo-website/blob/main/assets/icon-red.svg">
+    <img alt="An eagle resting on a branch. Light: 'Light variant' Dark: 'Dark variant'" src="https://github.com/MelihDarcanxyz/neo-website/blob/main/assets/icon-teal.svg" width=70>
   </picture>
 </div>
 <h1 align="center">
