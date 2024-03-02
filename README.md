@@ -9,7 +9,7 @@
   Expedition
 </h1>
 
-Expedition is a simple opinionated starter built with the Astro framework. Use it to create an easy-to-use blog or website.
+Expedition is a personal website to discipline myself.
 
 ## Table Of Contents
 
