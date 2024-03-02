@@ -1,7 +1,7 @@
 <div align="center">
   <picture style="width: 70;">
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MelihDarcanxyz/neo-website/assets/icon-darkgreen.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/MelihDarcanxyz/neo-website/assets/icon-red.svg">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/MelihDarcanxyz/neo-website/blog/main/assets/icon-darkgreen.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/MelihDarcanxyz/neo-website/blog/main/assets/icon-red.svg">
   </picture>
 </div>
 <h1 align="center">
