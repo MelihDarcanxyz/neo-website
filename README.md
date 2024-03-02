@@ -1,7 +1,8 @@
 <div align="center">
-  <picture style="width: 70;">
+  <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/icon-darkgreen.svg">
     <source media="(prefers-color-scheme: light)" srcset="./assets/icon-red.svg">
+    <img alt="An eagle resting on a branch. Light: 'Light variant' Dark: 'Dark variant'" src="./icon-teal.svg" width=70>
   </picture>
 </div>
 <h1 align="center">
