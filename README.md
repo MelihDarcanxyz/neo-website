@@ -9,7 +9,7 @@
   Expedition
 </h1>
 
-Expedition is a personal website to discipline myself.
+Expedition is a personal website for self discipline .
 
 ## Table Of Contents
 
